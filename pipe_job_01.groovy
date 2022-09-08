@@ -12,5 +12,10 @@ pipeline {
 		      echo "Second"		   
 		   }
 	   }
+	   stage('My-Third-Commands') {
+	       steps {
+		      echo "Second"		   
+		   }
+	   }
 	}
 }
