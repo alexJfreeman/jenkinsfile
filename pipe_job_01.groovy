@@ -3,7 +3,7 @@ pipeline {
 	stages {
 	   stage('My-First-Commands') {
 	       steps {
-		      echo "First"		   
+		      echo "${FRASE}"		   
 		   }
 	   }
 	   stage('My-Second-Commands') {
